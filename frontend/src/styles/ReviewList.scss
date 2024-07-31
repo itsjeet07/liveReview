@@ -1,0 +1,42 @@
+.reviewList {
+
+    .create-btn {
+        margin-left: 88%;
+        margin-bottom: 10px;
+    }
+
+    button {
+        padding: 7px 12px;
+    }
+
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+        tr {
+            transition: background-color 0.5s ease;
+        }
+
+        .created {
+            background-color: #d4edda;
+        }
+
+        .updated {
+            background-color: #d1ecf1;
+        }
+
+        .deleted {
+            background-color: #f8d7da;
+        }
+    }
+}

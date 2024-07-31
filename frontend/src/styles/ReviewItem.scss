@@ -1,0 +1,29 @@
+.noteItem {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.content {
+    margin-bottom: 10px;
+}
+
+.dateTime {
+    color: #888;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+}
